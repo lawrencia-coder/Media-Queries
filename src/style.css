@@ -86,6 +86,7 @@ Do not delete any of the above code. */
 /* c2: side-by-side view on desktop */
 .layout-wrapper{
   display: flex;
+  gap: 20px;
 }
 
 .main-content{
