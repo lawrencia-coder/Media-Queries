@@ -76,3 +76,11 @@ Do not delete any of the above code. */
 }
 
 /* styling for tablet */
+@media screen and (max-width:991px){
+  .light-box{
+    background-color: rgb(229,255,0);
+    color: black;
+  }
+}
+
+/* styling for mobile view */
