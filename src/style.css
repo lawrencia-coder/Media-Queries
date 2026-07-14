@@ -83,4 +83,31 @@ Do not delete any of the above code. */
   }
 }
 
+/* c2: side-by-side view on desktop */
+.layout-wrapper{
+  display: flex;
+}
+
+.main-content{
+  background-color: blue;
+  color: black;
+  padding: 20px;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+
+.sidebar{
+  background-color: rgb(122, 189, 231);
+  color: black;
+  padding: 20px;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+
 /* styling for mobile view */
+@media screen and (max-width:786px){
+  .light-box{
+    background-color: green;
+    color: white;
+  }
+}
